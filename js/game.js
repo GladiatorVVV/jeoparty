@@ -15,6 +15,21 @@
 
   const save = () => J.store.set(SESSION_KEY, S);
 
+  // Load the PDF code on demand, in case the browser is still showing an older
+  // cached copy of this page that doesn't include it.
+  const answerSheet = async (g, dd) => {
+    if (!J.downloadAnswerSheet) {
+      await new Promise((resolve, reject) => {
+        const s = document.createElement('script');
+        s.src = `js/sheet.js?v=${Date.now()}`;
+        s.onload = resolve;
+        s.onerror = () => reject(new Error('Could not load the answer sheet. Please reload the page and try again.'));
+        document.head.append(s);
+      });
+    }
+    return J.downloadAnswerSheet(g, dd);
+  };
+
   /* ================= helpers ================= */
 
   const shuffle = (arr) => {
@@ -292,7 +307,7 @@
       try {
         const g = await J.loadGame(select.value);
         if (!g) throw new Error('That game could not be found.');
-        await J.downloadAnswerSheet(g, null);
+        await answerSheet(g, null);
         err.textContent = '';
       } catch (e) {
         err.textContent = e.message;
@@ -687,7 +702,7 @@
     const add = (label, fn) => items.push(h('button', { text: label, onclick: () => { closeHostMenu(); fn(); } }));
     add('Players / teams & scores', openTeamsModal);
     add('Download host answer sheet (PDF)', () => {
-      J.downloadAnswerSheet(game, S.dd).catch((e) => alert(e.message));
+      answerSheet(game, S.dd).catch((e) => alert(e.message));
     });
     if (S && S.current && ['dd', 'clue', 'answer'].includes(S.phase)) add('Put this clue back on the board', undoClue);
     if (S && S.phase === 'board' && S.history.length) add('Undo last clue', undoClue);

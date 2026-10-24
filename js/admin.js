@@ -22,6 +22,21 @@
   const pending = {};          // media path -> { base64, size } waiting to be uploaded
   const previews = {};         // media path -> local blob URL for previews
 
+  // Load the PDF code on demand, in case the browser is still showing an older
+  // cached copy of this page that doesn't include it.
+  const answerSheet = async (g, dd) => {
+    if (!J.downloadAnswerSheet) {
+      await new Promise((resolve, reject) => {
+        const s = document.createElement('script');
+        s.src = `js/sheet.js?v=${Date.now()}`;
+        s.onload = resolve;
+        s.onerror = () => reject(new Error('Could not load the answer sheet. Please reload the page and try again.'));
+        document.head.append(s);
+      });
+    }
+    return J.downloadAnswerSheet(g, dd);
+  };
+
   const selected = () => games.find((g) => g.id === selectedId) || null;
   const gameJSON = (g) => `${JSON.stringify(g, null, 2)}\n`;
   const indexJSON = () => `${JSON.stringify({ games: games.map((g) => ({ id: g.id, name: g.name })) }, null, 2)}\n`;
@@ -169,7 +184,7 @@
           h('button.btn.small.ghost', { text: 'Duplicate', onclick: () => duplicateGame(g) }),
           h('button.btn.small.ghost', {
             text: 'Answer sheet (PDF)',
-            onclick: () => J.downloadAnswerSheet(g, null).catch((e) => status(e.message, 'bad')),
+            onclick: () => answerSheet(g, null).catch((e) => status(e.message, 'bad')),
           }),
           h('button.btn.small.ghost', { text: 'Download backup', onclick: () => downloadBackup(g) }),
           h('button.btn.small.danger', { text: 'Delete', onclick: () => deleteGame(g) }))),

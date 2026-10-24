@@ -1,6 +1,6 @@
 /* Host answer sheet: a PDF of every clue and answer to keep on another device. */
 (function () {
-  const JSPDF_URL = 'js/vendor/jspdf.umd.min.js'; // jsPDF 2.5.1, MIT license
+  const JSPDF_URL = 'js/vendor/jspdf.umd.min.js?v=2.5.1'; // jsPDF 2.5.1, MIT license
   let loading = null;
 
   const loadJsPDF = () => {
