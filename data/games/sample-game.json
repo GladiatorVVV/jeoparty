@@ -1,0 +1,893 @@
+{
+  "id": "sample-game",
+  "name": "Sample Game",
+  "showLogo": true,
+  "title": "",
+  "subtitle": "Game Night",
+  "rounds": {
+    "single": {
+      "name": "Jeopardy!",
+      "enabled": true,
+      "values": [
+        200,
+        400,
+        600,
+        800,
+        1000
+      ],
+      "categories": [
+        {
+          "name": "The Solar System",
+          "clues": [
+            {
+              "clue": {
+                "text": "This planet, known as the Red Planet, is fourth from the Sun",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is Mars?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "The largest planet in our solar system, it has a Great Red Spot",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is Jupiter?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "This sixth planet from the Sun is famous for its spectacular rings",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is Saturn?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "In 2006 this former ninth planet was reclassified as a dwarf planet",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is Pluto?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "The hottest planet in the solar system, it's wrapped in a thick carbon dioxide atmosphere",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is Venus?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            }
+          ]
+        },
+        {
+          "name": "World Capitals",
+          "clues": [
+            {
+              "clue": {
+                "text": "It's the capital of Japan",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is Tokyo?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "This city on the Seine is the capital of France",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is Paris?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "Canberra is the capital of this country",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is Australia?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "This capital of Canada is located in the province of Ontario",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is Ottawa?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "Not Istanbul, this city is the capital of Turkey",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is Ankara?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            }
+          ]
+        },
+        {
+          "name": "Animal Kingdom",
+          "clues": [
+            {
+              "clue": {
+                "text": "This black-and-white bear from China eats mostly bamboo",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is a giant panda?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "The fastest land animal, it can sprint up to about 70 mph",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is a cheetah?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "A group of these black birds is called a \"murder\"",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What are crows?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "This marine mammal is the largest animal known to have ever lived",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is the blue whale?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "This egg-laying mammal from Australia has a duck-like bill",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is the platypus?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            }
+          ]
+        },
+        {
+          "name": "Famous Inventors",
+          "clues": [
+            {
+              "clue": {
+                "text": "He received the first U.S. patent for the telephone in 1876",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "Who is Alexander Graham Bell?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "These brothers made the first powered airplane flight at Kitty Hawk in 1903",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "Who are the Wright brothers?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "His Menlo Park lab developed a long-lasting incandescent light bulb",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "Who is Thomas Edison?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "This German goldsmith introduced movable-type printing to Europe around 1440",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "Who is Johannes Gutenberg?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "This Serbian-American pioneer of alternating current now has a car company named after him",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "Who is Nikola Tesla?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            }
+          ]
+        },
+        {
+          "name": "Food & Drink",
+          "clues": [
+            {
+              "clue": {
+                "text": "Guacamole is made mainly from this fruit",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is an avocado?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "This Italian pasta's name means \"little strings\"",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is spaghetti?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "Sushi rice is traditionally seasoned with this sour liquid",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is vinegar?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "This flaky French pastry's name means \"crescent\"",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is a croissant?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "The world's most expensive spice by weight, it comes from a crocus flower",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is saffron?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            }
+          ]
+        },
+        {
+          "name": "Rhyme Time",
+          "clues": [
+            {
+              "clue": {
+                "text": "An overweight kitty",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is a fat cat?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "A crimson place to sleep",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is a red bed?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "A happy father",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is a glad dad?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "A phony serpent",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is a fake snake?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "A rodent's residence",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is a mouse house?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            }
+          ]
+        }
+      ]
+    },
+    "double": {
+      "name": "Double Jeopardy!",
+      "enabled": true,
+      "values": [
+        400,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "categories": [
+        {
+          "name": "U.S. Presidents",
+          "clues": [
+            {
+              "clue": {
+                "text": "He was the first President of the United States",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "Who is George Washington?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "This president delivered the Gettysburg Address in 1863",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "Who is Abraham Lincoln?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "He's the only president elected to more than two terms",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "Who is Franklin D. Roosevelt?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "Elected in 1960, he was the first Catholic president",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "Who is John F. Kennedy?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "This third president was the main author of the Declaration of Independence",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "Who is Thomas Jefferson?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            }
+          ]
+        },
+        {
+          "name": "Science",
+          "clues": [
+            {
+              "clue": {
+                "text": "H2O is the chemical formula for this",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is water?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "This force keeps the planets in orbit around the Sun",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is gravity?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "This organelle is known as the powerhouse of the cell",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is the mitochondria?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "This precious metal has the chemical symbol Au",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is gold?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "It travels at about 299,792 kilometers per second in a vacuum",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is light?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            }
+          ]
+        },
+        {
+          "name": "Literature",
+          "clues": [
+            {
+              "clue": {
+                "text": "This boy wizard attends Hogwarts School",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "Who is Harry Potter?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "He wrote \"Romeo and Juliet\"",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "Who is William Shakespeare?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "In this Herman Melville novel, Captain Ahab hunts a white whale",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is \"Moby-Dick\"?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "This George Orwell novel introduced the world to Big Brother",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is \"1984\"?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "\"It was the best of times, it was the worst of times\" opens this Dickens novel",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is \"A Tale of Two Cities\"?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            }
+          ]
+        },
+        {
+          "name": "Music",
+          "clues": [
+            {
+              "clue": {
+                "text": "This band from Liverpool sang \"Hey Jude\"",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "Who are the Beatles?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "A standard one of these instruments has 88 keys",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is a piano?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "He's known as the \"King of Pop\"",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "Who is Michael Jackson?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "This composer kept writing after losing his hearing, including his Ninth Symphony",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "Who is Beethoven?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "This Italian musical term means gradually getting louder",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is crescendo?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            }
+          ]
+        },
+        {
+          "name": "Geography",
+          "clues": [
+            {
+              "clue": {
+                "text": "This is the largest ocean on Earth",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is the Pacific Ocean?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "This river flowing through Egypt is often called the world's longest",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is the Nile?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "By area, this is the smallest country in the world",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is Vatican City?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "Mount Kilimanjaro is in this African country",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is Tanzania?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "This Chilean desert is the driest non-polar desert on Earth",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is the Atacama Desert?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            }
+          ]
+        },
+        {
+          "name": "Words & Phrases",
+          "clues": [
+            {
+              "clue": {
+                "text": "A word that reads the same forward and backward, like \"racecar\"",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is a palindrome?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "To reveal a secret is to \"spill\" these",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What are the beans?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "This word means an extreme fear of spiders",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is arachnophobia?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "A word formed from the first letters of a phrase, like NASA",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is an acronym?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "This literary term means giving human traits to non-human things",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is personification?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "dailyDoubles": {
+    "mode": "random",
+    "single": 1,
+    "double": 2
+  },
+  "final": {
+    "category": "Landmarks",
+    "clue": {
+      "text": "Gustave Eiffel's company designed the internal iron framework of this monument, dedicated in 1886",
+      "image": "",
+      "audio": ""
+    },
+    "answer": {
+      "text": "What is the Statue of Liberty?",
+      "image": "",
+      "audio": ""
+    }
+  }
+}
