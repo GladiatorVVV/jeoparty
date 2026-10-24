@@ -136,6 +136,16 @@ select.input option { color: #000; }
   font-size: 1em;
 }
 .iconBtn.danger:not(:disabled):hover { background: var(--wrong); }
+.linkBtn {
+  background: none;
+  border: 0;
+  padding: .5em 0 0;
+  color: var(--link);
+  font-family: var(--body);
+  font-size: .9em;
+  text-decoration: underline;
+}
+.linkBtn:hover { color: #fff; }
 .setupActions { display: flex; gap: .7em; justify-content: flex-end; margin-top: 1.2em; flex-wrap: wrap; }
 .err { min-height: 1.3em; margin-top: .5em; color: #ffd0d0; text-align: right; font-size: .9em; }
 .adminLink {

@@ -287,6 +287,17 @@
     drawTeams();
 
     const err = h('div.err');
+    const sheet = async () => {
+      err.textContent = 'Making the answer sheet…';
+      try {
+        const g = await J.loadGame(select.value);
+        if (!g) throw new Error('That game could not be found.');
+        await J.downloadAnswerSheet(g, null);
+        err.textContent = '';
+      } catch (e) {
+        err.textContent = e.message;
+      }
+    };
     const start = async () => {
       const id = select.value;
       if (!id) return;
@@ -310,7 +321,9 @@
         history: [],
         final: { wagers: {}, marks: {} },
       };
+      // Place both rounds' Daily Doubles now so the host answer sheet can show them.
       S.dd.single = placeDailyDoubles('single');
+      S.dd.double = placeDailyDoubles('double');
       save();
       render();
     };
@@ -337,6 +350,7 @@
       index.games.length
         ? h('div.setupCard', null,
           h('label.lbl', { text: 'Game board' }), select,
+          h('button.linkBtn', { onclick: sheet, text: '⤓ Download host answer sheet (PDF)' }),
           h('label.lbl', { text: `Players / teams (up to ${MAX_TEAMS})` }), list, addBtn,
           h('div.setupActions', null,
             canResume && h('button.btn.ghost', { onclick: resume, text: `Resume “${savedName}”` }),
@@ -672,6 +686,9 @@
     const items = [];
     const add = (label, fn) => items.push(h('button', { text: label, onclick: () => { closeHostMenu(); fn(); } }));
     add('Players / teams & scores', openTeamsModal);
+    add('Download host answer sheet (PDF)', () => {
+      J.downloadAnswerSheet(game, S.dd).catch((e) => alert(e.message));
+    });
     if (S && S.current && ['dd', 'clue', 'answer'].includes(S.phase)) add('Put this clue back on the board', undoClue);
     if (S && S.phase === 'board' && S.history.length) add('Undo last clue', undoClue);
     if (S && ['board', 'roundSplash'].includes(S.phase)) {

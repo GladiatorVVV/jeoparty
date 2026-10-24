@@ -167,6 +167,10 @@
         h('div.row', null,
           h('a.btn.small.ghost', { href: 'index.html', target: '_blank', rel: 'noopener', text: 'Play ↗' }),
           h('button.btn.small.ghost', { text: 'Duplicate', onclick: () => duplicateGame(g) }),
+          h('button.btn.small.ghost', {
+            text: 'Answer sheet (PDF)',
+            onclick: () => J.downloadAnswerSheet(g, null).catch((e) => status(e.message, 'bad')),
+          }),
           h('button.btn.small.ghost', { text: 'Download backup', onclick: () => downloadBackup(g) }),
           h('button.btn.small.danger', { text: 'Delete', onclick: () => deleteGame(g) }))),
       h('div.tabs', null, tabs.map(([key, label]) => h(`button.tab${tab === key ? '.on' : ''}`, {

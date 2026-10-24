@@ -31,6 +31,7 @@ The token is stored only in that browser. Every **Save** makes one commit contai
 - **Keyboard:** `Space`/`Enter`/`→` moves forward. `1`–`6` marks that team correct, and `Shift`+`1`–`6` marks them wrong. `F` toggles full screen.
 - **Daily Double:** choose who found it, enter their wager (the most they can bet is their score or the round's top value, whichever is higher), then show the clue.
 - **Final Jeopardy!:** enter each wager (hidden as dots), show the clue, reveal the answer, then mark each team.
+- **Host answer sheet (PDF):** every clue and its answer, by round and category, to check on your phone before you reveal the answer. Download it from the start screen, the ☰ menu or the admin panel. Download it from the ☰ menu **after** starting the game to see where the random Daily Doubles are.
 - The ☰ menu can also put a clue back on the board (this undoes its scoring) and skip to the next round.
 - The game in progress is saved in the browser, so a refresh or the **Resume** button picks up where you left off.
 
@@ -38,7 +39,7 @@ The token is stored only in that browser. Every **Save** makes one commit contai
 
 ```
 index.html, admin.html   the two pages
-css/, js/                styles and code (no build step)
+css/, js/                styles and code (no build step; js/vendor has jsPDF, MIT license)
 assets/                  logo and background taken from the slide deck
 data/index.json          list of game boards
 data/games/<id>.json     one file per game board
