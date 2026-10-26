@@ -440,7 +440,7 @@
     },
     "double": {
       "name": "Double Jeopardy!",
-      "enabled": true,
+      "enabled": false,
       "values": [
         400,
         800,
@@ -450,7 +450,287 @@
       ],
       "categories": [
         {
-          "name": "",
+          "name": "Science",
+          "clues": [
+            {
+              "clue": {
+                "text": "This planet is known as the Red Planet because of iron oxide on its surface.",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is Mars?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "These are hard, irregular lumps or balls of ice produced inside strong thunderstorm clouds by powerful updrafts that repeatedly push ice particles up into freezing regions. ",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is hail (naw)?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "This is the largest moon of Saturn?",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is Titan?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "This is the name of the boundary around a black hole beyond which nothing, not even light, can escape.",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is the event horizon?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "This scientist is responsible for discovering penicillin.",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "Who is Alexander Fleming?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            }
+          ]
+        },
+        {
+          "name": "History",
+          "clues": [
+            {
+              "clue": {
+                "text": "The United States of America declared independence on this year.",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is 1776?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "This is the deadliest war in US history.",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is the Civil War? ",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "The assassination of this individual led to the start of World War 1.",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "Who is Archduke Franz Ferdinand?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "Emperor Genghis Khan ruled over this empire.",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is the Mongol Empire?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "This civilization of ancient Mesopotamia is widely considered the world's oldest true civilization. ",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is the Sumerian Civilization?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            }
+          ]
+        },
+        {
+          "name": "Gen Z Slang",
+          "clues": [
+            {
+              "clue": {
+                "text": "This word is short for ",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            }
+          ]
+        },
+        {
+          "name": "Popular TV",
+          "clues": [
+            {
+              "clue": {
+                "text": "In 'Friends,' this character works as a paleontologist.",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "Who is Ross Geller?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "In 'The Office' (U.S.), this regional paper company employs Michael Scott as its branch manager.",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is Dunder Mifflin?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "In 'Breaking Bad,' this is the alias Walter White adopts in the drug trade.",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "Who is Heisenberg?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "In 'Stranger Things,' this fictional Indiana town is home to the secret government laboratory and the Upside Down.",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is Hawkins?",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "This beloved character got his name for holding the door in 'Game Of Thrones'.",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "Who is Hodor?",
+                "image": "media/lifstyl-lryd/10ch15-images.jpeg",
+                "audio": ""
+              },
+              "dailyDouble": false
+            }
+          ]
+        },
+        {
+          "name": "Apple products",
           "clues": [
             {
               "clue": {
@@ -520,287 +800,7 @@
           ]
         },
         {
-          "name": "",
-          "clues": [
-            {
-              "clue": {
-                "text": "",
-                "image": "",
-                "audio": ""
-              },
-              "answer": {
-                "text": "",
-                "image": "",
-                "audio": ""
-              },
-              "dailyDouble": false
-            },
-            {
-              "clue": {
-                "text": "",
-                "image": "",
-                "audio": ""
-              },
-              "answer": {
-                "text": "",
-                "image": "",
-                "audio": ""
-              },
-              "dailyDouble": false
-            },
-            {
-              "clue": {
-                "text": "",
-                "image": "",
-                "audio": ""
-              },
-              "answer": {
-                "text": "",
-                "image": "",
-                "audio": ""
-              },
-              "dailyDouble": false
-            },
-            {
-              "clue": {
-                "text": "",
-                "image": "",
-                "audio": ""
-              },
-              "answer": {
-                "text": "",
-                "image": "",
-                "audio": ""
-              },
-              "dailyDouble": false
-            },
-            {
-              "clue": {
-                "text": "",
-                "image": "",
-                "audio": ""
-              },
-              "answer": {
-                "text": "",
-                "image": "",
-                "audio": ""
-              },
-              "dailyDouble": false
-            }
-          ]
-        },
-        {
-          "name": "",
-          "clues": [
-            {
-              "clue": {
-                "text": "",
-                "image": "",
-                "audio": ""
-              },
-              "answer": {
-                "text": "",
-                "image": "",
-                "audio": ""
-              },
-              "dailyDouble": false
-            },
-            {
-              "clue": {
-                "text": "",
-                "image": "",
-                "audio": ""
-              },
-              "answer": {
-                "text": "",
-                "image": "",
-                "audio": ""
-              },
-              "dailyDouble": false
-            },
-            {
-              "clue": {
-                "text": "",
-                "image": "",
-                "audio": ""
-              },
-              "answer": {
-                "text": "",
-                "image": "",
-                "audio": ""
-              },
-              "dailyDouble": false
-            },
-            {
-              "clue": {
-                "text": "",
-                "image": "",
-                "audio": ""
-              },
-              "answer": {
-                "text": "",
-                "image": "",
-                "audio": ""
-              },
-              "dailyDouble": false
-            },
-            {
-              "clue": {
-                "text": "",
-                "image": "",
-                "audio": ""
-              },
-              "answer": {
-                "text": "",
-                "image": "",
-                "audio": ""
-              },
-              "dailyDouble": false
-            }
-          ]
-        },
-        {
-          "name": "",
-          "clues": [
-            {
-              "clue": {
-                "text": "",
-                "image": "",
-                "audio": ""
-              },
-              "answer": {
-                "text": "",
-                "image": "",
-                "audio": ""
-              },
-              "dailyDouble": false
-            },
-            {
-              "clue": {
-                "text": "",
-                "image": "",
-                "audio": ""
-              },
-              "answer": {
-                "text": "",
-                "image": "",
-                "audio": ""
-              },
-              "dailyDouble": false
-            },
-            {
-              "clue": {
-                "text": "",
-                "image": "",
-                "audio": ""
-              },
-              "answer": {
-                "text": "",
-                "image": "",
-                "audio": ""
-              },
-              "dailyDouble": false
-            },
-            {
-              "clue": {
-                "text": "",
-                "image": "",
-                "audio": ""
-              },
-              "answer": {
-                "text": "",
-                "image": "",
-                "audio": ""
-              },
-              "dailyDouble": false
-            },
-            {
-              "clue": {
-                "text": "",
-                "image": "",
-                "audio": ""
-              },
-              "answer": {
-                "text": "",
-                "image": "",
-                "audio": ""
-              },
-              "dailyDouble": false
-            }
-          ]
-        },
-        {
-          "name": "",
-          "clues": [
-            {
-              "clue": {
-                "text": "",
-                "image": "",
-                "audio": ""
-              },
-              "answer": {
-                "text": "",
-                "image": "",
-                "audio": ""
-              },
-              "dailyDouble": false
-            },
-            {
-              "clue": {
-                "text": "",
-                "image": "",
-                "audio": ""
-              },
-              "answer": {
-                "text": "",
-                "image": "",
-                "audio": ""
-              },
-              "dailyDouble": false
-            },
-            {
-              "clue": {
-                "text": "",
-                "image": "",
-                "audio": ""
-              },
-              "answer": {
-                "text": "",
-                "image": "",
-                "audio": ""
-              },
-              "dailyDouble": false
-            },
-            {
-              "clue": {
-                "text": "",
-                "image": "",
-                "audio": ""
-              },
-              "answer": {
-                "text": "",
-                "image": "",
-                "audio": ""
-              },
-              "dailyDouble": false
-            },
-            {
-              "clue": {
-                "text": "",
-                "image": "",
-                "audio": ""
-              },
-              "answer": {
-                "text": "",
-                "image": "",
-                "audio": ""
-              },
-              "dailyDouble": false
-            }
-          ]
-        },
-        {
-          "name": "",
+          "name": "Kush",
           "clues": [
             {
               "clue": {
