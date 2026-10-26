@@ -168,7 +168,7 @@
     const tabs = [
       ['title', 'Title screen'],
       ['single', g.rounds.single.name || 'Jeopardy!'],
-      ['double', g.rounds.double.name || 'Double Jeopardy!'],
+      ['double', `${g.rounds.double.name || 'Double Jeopardy!'}${g.rounds.double.enabled ? '' : ' (off)'}`],
       ['final', 'Final Jeopardy!'],
       ['dd', 'Daily Doubles'],
     ];
@@ -247,9 +247,24 @@
     const manualDD = g.dailyDoubles.mode === 'manual';
 
     if (key === 'double') {
-      body.append(checkbox('Include this round in the game', round, 'enabled', () => renderEditor()));
+      body.append(h('label.check', null,
+        h('input', {
+          type: 'checkbox', checked: round.enabled,
+          onchange: (e) => {
+            if (!e.target.checked && !confirm('Turn off this round? Players will skip it, and it will be left out of the answer sheet. Your clues are kept.')) {
+              e.target.checked = true;
+              return;
+            }
+            round.enabled = e.target.checked;
+            markDirty();
+            renderEditor();
+          },
+        }),
+        h('span', { text: 'Include this round in the game' })));
       if (!round.enabled) {
-        body.append(h('p.help', { text: 'This round is switched off. Players go straight from the first round to Final Jeopardy!. Your clues here are kept.' }));
+        body.append(h('div.warnBox', {
+          text: 'This round is switched OFF. Players go straight from the first round to Final Jeopardy!, and it is left out of the answer sheet. Tick the box above to turn it back on. Your clues here are kept.',
+        }));
       }
     }
 

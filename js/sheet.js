@@ -78,8 +78,13 @@
     if (game.dailyDoubles.mode === 'manual') ddNote = 'Daily Doubles are marked below.';
     else if (dd) ddNote = 'Daily Doubles chosen for this game are marked below.';
     else ddNote = 'Daily Doubles are placed at random when the game starts. Download this sheet from the in-game menu to see where they are.';
-    doc.text(doc.splitTextToSize(`Host answer sheet - keep this to yourself! ${ddNote}`, W - 2 * M), M, y + 8);
-    y += 34;
+    const dbl = game.rounds.double;
+    const offNote = !dbl.enabled && dbl.categories.some((cat) => cat.clues.some((cl) => hasContent(cl.clue)))
+      ? ` ${dbl.name || 'Double Jeopardy!'} is switched off for this game, so it is not included (turn it on in the admin panel).`
+      : '';
+    const intro = doc.splitTextToSize(clean(`Host answer sheet - keep this to yourself! ${ddNote}${offNote}`), W - 2 * M);
+    doc.text(intro, M, y + 8);
+    y += intro.length * 12 + 20;
 
     const roundBar = (title) => {
       ensure(80);
