@@ -367,16 +367,16 @@
           ]
         },
         {
-          "name": "Just Cause",
+          "name": "too easy?",
           "clues": [
             {
               "clue": {
-                "text": "This household item has many teeth but cannot bite.",
+                "text": "The first letter of the alphabet.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "What is a comb?",
+                "text": "What is A?",
                 "image": "",
                 "audio": ""
               },
@@ -384,12 +384,12 @@
             },
             {
               "clue": {
-                "text": "This is seen in the middle of March and April that can't be seen at the beginning or end of either month.",
+                "text": "2+2",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "What is R?",
+                "text": "What is 4?",
                 "image": "",
                 "audio": ""
               },
@@ -397,12 +397,12 @@
             },
             {
               "clue": {
-                "text": "What 5 letter word in the English language becomes shorter when you add 2 letters to it?",
+                "text": "The number of states in the USA?",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "Short\n\nShort → Shorter",
+                "text": "What is 50?",
                 "image": "",
                 "audio": ""
               },
@@ -410,12 +410,12 @@
             },
             {
               "clue": {
-                "text": "What side of a cat has the most fur?",
+                "text": "The chemical formula for phosphorus pentachloride... Ah screw it. The zip code of the Lexington Lifstyl Office.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "The outside.",
+                "text": "What is 40503?",
                 "image": "",
                 "audio": ""
               },
@@ -423,12 +423,12 @@
             },
             {
               "clue": {
-                "text": "You can catch this, especially during winter months, but not throw it.",
+                "text": "A pig that does karate.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "What is a cold?",
+                "text": "What is a pork chop?",
                 "image": "",
                 "audio": ""
               },
