@@ -1,0 +1,893 @@
+{
+  "id": "lifstyl-lryd",
+  "name": "Lifstyl",
+  "showLogo": true,
+  "title": "Lifstyl Team Building",
+  "subtitle": "May the best team win!",
+  "rounds": {
+    "single": {
+      "name": "Jeopardy!",
+      "enabled": true,
+      "values": [
+        200,
+        400,
+        600,
+        800,
+        1000
+      ],
+      "categories": [
+        {
+          "name": "Real Estate",
+          "clues": [
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            }
+          ]
+        },
+        {
+          "name": "Sports",
+          "clues": [
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            }
+          ]
+        },
+        {
+          "name": "Geography",
+          "clues": [
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            }
+          ]
+        },
+        {
+          "name": "Music of the 80s",
+          "clues": [
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            }
+          ]
+        },
+        {
+          "name": "Holidays",
+          "clues": [
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            }
+          ]
+        },
+        {
+          "name": "Just Cause",
+          "clues": [
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            }
+          ]
+        }
+      ]
+    },
+    "double": {
+      "name": "Double Jeopardy!",
+      "enabled": true,
+      "values": [
+        400,
+        800,
+        1200,
+        1600,
+        2000
+      ],
+      "categories": [
+        {
+          "name": "",
+          "clues": [
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            }
+          ]
+        },
+        {
+          "name": "",
+          "clues": [
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            }
+          ]
+        },
+        {
+          "name": "",
+          "clues": [
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            }
+          ]
+        },
+        {
+          "name": "",
+          "clues": [
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            }
+          ]
+        },
+        {
+          "name": "",
+          "clues": [
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            }
+          ]
+        },
+        {
+          "name": "",
+          "clues": [
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "",
+                "image": "",
+                "audio": ""
+              },
+              "dailyDouble": false
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "dailyDoubles": {
+    "mode": "random",
+    "single": 1,
+    "double": 2
+  },
+  "final": {
+    "category": "",
+    "clue": {
+      "text": "",
+      "image": "",
+      "audio": ""
+    },
+    "answer": {
+      "text": "",
+      "image": "",
+      "audio": ""
+    }
+  }
+}
