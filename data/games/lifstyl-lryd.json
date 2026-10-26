@@ -590,16 +590,16 @@
           ]
         },
         {
-          "name": "Gen Z Slang",
+          "name": "Comics",
           "clues": [
             {
               "clue": {
-                "text": "This word is short for ",
+                "text": "This superhero's home city is Gotham, and his famous sidekick is Robin.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
+                "text": "Who is Batman?",
                 "image": "",
                 "audio": ""
               },
@@ -607,12 +607,12 @@
             },
             {
               "clue": {
-                "text": "",
+                "text": "These movies usually start with \"A long time ago in a galaxy far, far away...\"",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
+                "text": "What is Star Wars?",
                 "image": "",
                 "audio": ""
               },
@@ -620,12 +620,12 @@
             },
             {
               "clue": {
-                "text": "",
+                "text": "Tony Stark plays this character in the Marvel Universe.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
+                "text": "Who is Iron Man?",
                 "image": "",
                 "audio": ""
               },
@@ -633,12 +633,12 @@
             },
             {
               "clue": {
-                "text": "",
+                "text": "This individual play's Superman's love interest.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
+                "text": "Who is Lois Lane?",
                 "image": "",
                 "audio": ""
               },
@@ -646,13 +646,13 @@
             },
             {
               "clue": {
-                "text": "",
+                "text": "This Marvel villain is obsessed on eliminating half of the universe.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
-                "image": "",
+                "text": "Who is Thanos?",
+                "image": "media/lifstyl-lryd/wdssfj-thanos-mcu-jpg.webp",
                 "audio": ""
               },
               "dailyDouble": false
@@ -734,12 +734,12 @@
           "clues": [
             {
               "clue": {
-                "text": "",
+                "text": "Steve Jobs unveiled this revolutionary device in 2007.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
+                "text": "What is the iPhone?",
                 "image": "",
                 "audio": ""
               },
@@ -747,12 +747,12 @@
             },
             {
               "clue": {
-                "text": "",
+                "text": "This Apple device resembles wireless earphones.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
+                "text": "What are AirPods?",
                 "image": "",
                 "audio": ""
               },
@@ -760,12 +760,12 @@
             },
             {
               "clue": {
-                "text": "",
+                "text": "This device is used to monitor your heart rate.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
+                "text": "What is an Apple Watch?",
                 "image": "",
                 "audio": ""
               },
@@ -773,12 +773,12 @@
             },
             {
               "clue": {
-                "text": "",
+                "text": "This Apple Co-Founder designed the Apple 1 Computer is 1975.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
+                "text": "Who is Steve Wozniak?",
                 "image": "",
                 "audio": ""
               },
@@ -786,12 +786,12 @@
             },
             {
               "clue": {
-                "text": "",
+                "text": "Steve Jobs final keynote before his passing unveiled this popular service.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
+                "text": "What is iCloud?",
                 "image": "",
                 "audio": ""
               },
@@ -804,12 +804,12 @@
           "clues": [
             {
               "clue": {
-                "text": "",
+                "text": "Kush worked in the ER at this hospital.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
+                "text": "What is Baptist Health?",
                 "image": "",
                 "audio": ""
               },
@@ -817,12 +817,12 @@
             },
             {
               "clue": {
-                "text": "",
+                "text": "Kush is allergic to this.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
+                "text": "What is meat?",
                 "image": "",
                 "audio": ""
               },
@@ -830,12 +830,12 @@
             },
             {
               "clue": {
-                "text": "",
+                "text": "Kush played this sport for 7 years.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
+                "text": "What is basketball?",
                 "image": "",
                 "audio": ""
               },
@@ -843,12 +843,12 @@
             },
             {
               "clue": {
-                "text": "",
+                "text": "Kush's favorite NHL hockey team.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
+                "text": "Who are the New York Rangers?",
                 "image": "",
                 "audio": ""
               },
@@ -856,12 +856,12 @@
             },
             {
               "clue": {
-                "text": "",
+                "text": "Kush has multiple phone numbers of billionaires from this city.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
+                "text": "What is Dubai?",
                 "image": "",
                 "audio": ""
               },
@@ -878,14 +878,14 @@
     "double": 2
   },
   "final": {
-    "category": "",
+    "category": "Lifstyl Real Estate",
     "clue": {
-      "text": "",
+      "text": "The acronym RARE resembles these four core principles that the company seeks its agents to have.",
       "image": "",
       "audio": ""
     },
     "answer": {
-      "text": "",
+      "text": "What is Real · Accomplished · Resilient · Engaged?",
       "image": "",
       "audio": ""
     }
