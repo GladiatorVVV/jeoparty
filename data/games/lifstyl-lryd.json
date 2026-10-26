@@ -493,13 +493,13 @@
             },
             {
               "clue": {
-                "text": "This is the name of the boundary around a black hole beyond which nothing, not even light, can escape.",
+                "text": "Schoolchildren often giggle at the name of this planet in the solar system.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "What is the event horizon?",
-                "image": "",
+                "text": "What is Uranus?",
+                "image": "media/lifstyl-lryd/1krgim-images-2.jpeg",
                 "audio": ""
               },
               "dailyDouble": false
@@ -786,7 +786,7 @@
             },
             {
               "clue": {
-                "text": "Steve Jobs final keynote before his passing unveiled this popular service.",
+                "text": "Steve Jobs' final keynote before his passing unveiled this popular service.",
                 "image": "",
                 "audio": ""
               },
