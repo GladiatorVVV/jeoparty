@@ -21,12 +21,12 @@
           "clues": [
             {
               "clue": {
-                "text": "",
+                "text": "This document officially transfers ownership of a property from one party to another.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
+                "text": "What is a deed?",
                 "image": "",
                 "audio": ""
               },
@@ -34,12 +34,12 @@
             },
             {
               "clue": {
-                "text": "",
+                "text": "This is the minimum credit score required for a conventional loan.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
+                "text": "What is 620?",
                 "image": "",
                 "audio": ""
               },
@@ -47,12 +47,12 @@
             },
             {
               "clue": {
-                "text": "",
+                "text": "This person evaluates a home loan application to assess financial risk and decide whether to approve, deny, or pend the loan based on lender and program guidelines. ",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
+                "text": "What is an underwriter?",
                 "image": "",
                 "audio": ""
               },
@@ -60,12 +60,12 @@
             },
             {
               "clue": {
-                "text": "",
+                "text": "This technical legal term derived from Old French meaning movable property.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
+                "text": "What is chattel?",
                 "image": "",
                 "audio": ""
               },
@@ -73,12 +73,12 @@
             },
             {
               "clue": {
-                "text": "",
+                "text": "A lender can legally begin or proceed with the foreclosure process after a borrower is at least this many days delinquent on their mortgage payments.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
+                "text": "What is 120 days?",
                 "image": "",
                 "audio": ""
               },
@@ -91,12 +91,12 @@
           "clues": [
             {
               "clue": {
-                "text": "",
+                "text": "In football, when a team earns six points when it does this.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
+                "text": "What is a touchdown?",
                 "image": "",
                 "audio": ""
               },
@@ -104,12 +104,12 @@
             },
             {
               "clue": {
-                "text": "",
+                "text": "This Chicago Bulls player won six NBA championships.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
+                "text": "Who is Micheal Jordan?",
                 "image": "",
                 "audio": ""
               },
@@ -117,12 +117,12 @@
             },
             {
               "clue": {
-                "text": "",
+                "text": "This country won the most medals in the 2026 Winter Olympics.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
+                "text": "What is Norway?",
                 "image": "",
                 "audio": ""
               },
@@ -130,12 +130,12 @@
             },
             {
               "clue": {
-                "text": "",
+                "text": "This male tennis player has the most Wimbledon wins.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
+                "text": "Who is Roger Federer (8)?",
                 "image": "",
                 "audio": ""
               },
@@ -143,12 +143,12 @@
             },
             {
               "clue": {
-                "text": "",
+                "text": "This person invented basketball in 1891.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
+                "text": "Who is Dr. James Naismith?",
                 "image": "",
                 "audio": ""
               },
@@ -161,12 +161,12 @@
           "clues": [
             {
               "clue": {
-                "text": "",
+                "text": "This is the largest ocean in the world.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
+                "text": "What is the Pacific Ocean?",
                 "image": "",
                 "audio": ""
               },
@@ -174,12 +174,25 @@
             },
             {
               "clue": {
-                "text": "",
+                "text": "This country borders Spain.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
+                "text": "What is Portugal?",
+                "image": "media/lifstyl-lryd/5r4csk-map-of-portugal.gif",
+                "audio": ""
+              },
+              "dailyDouble": false
+            },
+            {
+              "clue": {
+                "text": "This is the only continent that lies in all four hemispheres.",
+                "image": "",
+                "audio": ""
+              },
+              "answer": {
+                "text": "What is Africa?",
                 "image": "",
                 "audio": ""
               },
@@ -187,12 +200,12 @@
             },
             {
               "clue": {
-                "text": "",
+                "text": "This city is the capital of the US state Maine.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
+                "text": "What is Augusta?",
                 "image": "",
                 "audio": ""
               },
@@ -200,26 +213,13 @@
             },
             {
               "clue": {
-                "text": "",
+                "text": "The European Union has this many member countries.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
-                "image": "",
-                "audio": ""
-              },
-              "dailyDouble": false
-            },
-            {
-              "clue": {
-                "text": "",
-                "image": "",
-                "audio": ""
-              },
-              "answer": {
-                "text": "",
-                "image": "",
+                "text": "What is 27?",
+                "image": "media/lifstyl-lryd/mun5hm-theeu-2026.webp",
                 "audio": ""
               },
               "dailyDouble": false
@@ -231,12 +231,12 @@
           "clues": [
             {
               "clue": {
-                "text": "",
+                "text": "This pop star released the hit song 'Thriller' in 1982.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
+                "text": "Who is Michael Jackson? Heeheeee",
                 "image": "",
                 "audio": ""
               },
@@ -244,12 +244,12 @@
             },
             {
               "clue": {
-                "text": "",
+                "text": "Freddie Mercury was the lead singer of this band.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
+                "text": "Who is Queen?",
                 "image": "",
                 "audio": ""
               },
@@ -257,12 +257,12 @@
             },
             {
               "clue": {
-                "text": "",
+                "text": "This popular band has the song Africa.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
+                "text": "Who is Toto?",
                 "image": "",
                 "audio": ""
               },
@@ -270,12 +270,12 @@
             },
             {
               "clue": {
-                "text": "",
+                "text": "This 80s song has the lyrics \"Just to play my worries away, you're all the things I've got to remember, you're shying away, I'll be coming for you anyway\"",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
+                "text": "What is Take On Me?",
                 "image": "",
                 "audio": ""
               },
@@ -283,12 +283,12 @@
             },
             {
               "clue": {
-                "text": "",
+                "text": "The lead guitarist for Guns N' Roses.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
+                "text": "Who is Slash?",
                 "image": "",
                 "audio": ""
               },
@@ -301,12 +301,12 @@
           "clues": [
             {
               "clue": {
-                "text": "",
+                "text": "This holiday is celebrated widely in the world on December 25.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
+                "text": "What is Christmas?",
                 "image": "",
                 "audio": ""
               },
@@ -314,12 +314,12 @@
             },
             {
               "clue": {
-                "text": "",
+                "text": "This Jewish holiday is known as the Festival of Lights and is celebrated over eight nights.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
+                "text": "What is Hanukkah?",
                 "image": "",
                 "audio": ""
               },
@@ -327,12 +327,12 @@
             },
             {
               "clue": {
-                "text": "",
+                "text": "This Mexican holiday honors deceased loved ones and is celebrated on November 1 and 2.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
+                "text": "What is Día de los Muertos (Day of the Dead)?",
                 "image": "",
                 "audio": ""
               },
@@ -340,12 +340,12 @@
             },
             {
               "clue": {
-                "text": "",
+                "text": "The 9th month of the Islamic calendar dedicated to daily fasting from dawn to sunset, deep prayer, spiritual reflection, and charity.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
+                "text": "What is Ramadan?",
                 "image": "",
                 "audio": ""
               },
@@ -353,12 +353,12 @@
             },
             {
               "clue": {
-                "text": "",
+                "text": "The five-day Hindu Festival of Lights celebrating the victory of light over darkness.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
+                "text": "What is Diwali?",
                 "image": "",
                 "audio": ""
               },
@@ -371,12 +371,12 @@
           "clues": [
             {
               "clue": {
-                "text": "",
+                "text": "This household item has many teeth but cannot bite.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
+                "text": "What is a comb.",
                 "image": "",
                 "audio": ""
               },
@@ -384,12 +384,12 @@
             },
             {
               "clue": {
-                "text": "",
+                "text": "This is seen in the middle of March and April that can't be seen at the beginning or end of either month.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
+                "text": "What is R?",
                 "image": "",
                 "audio": ""
               },
@@ -397,12 +397,12 @@
             },
             {
               "clue": {
-                "text": "",
+                "text": "What 5 letter word in the English language becomes shorter when you add 2 letters to it?",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
+                "text": "Short\n\nShorter → Short",
                 "image": "",
                 "audio": ""
               },
@@ -410,12 +410,12 @@
             },
             {
               "clue": {
-                "text": "",
+                "text": "What side of a cat has the most fur?",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
+                "text": "The outside.",
                 "image": "",
                 "audio": ""
               },
@@ -423,12 +423,12 @@
             },
             {
               "clue": {
-                "text": "",
+                "text": "You can catch this but not throw it.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "",
+                "text": "What is a cold?",
                 "image": "",
                 "audio": ""
               },
