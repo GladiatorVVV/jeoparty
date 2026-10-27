@@ -620,12 +620,12 @@
             },
             {
               "clue": {
-                "text": "Tony Stark plays this character in the Marvel Universe.",
+                "text": "In the Marvel Universe, this is the name of Tony Stark's father.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "Who is Iron Man?",
+                "text": "Who is Howard Stark?",
                 "image": "",
                 "audio": ""
               },
@@ -633,12 +633,12 @@
             },
             {
               "clue": {
-                "text": "This individual play's Superman's love interest.",
+                "text": "In Super Mario Bros., what is the name of the dinosaur-like creature that Mario can ride on?",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "Who is Lois Lane?",
+                "text": "Who is Yoshi?",
                 "image": "",
                 "audio": ""
               },
@@ -646,13 +646,13 @@
             },
             {
               "clue": {
-                "text": "This Marvel villain is obsessed on eliminating half of the universe.",
+                "text": "The name of the primary wizarding newspaper in the Harry Potter world.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "Who is Thanos?",
-                "image": "media/lifstyl-lryd/wdssfj-thanos-mcu-jpg.webp",
+                "text": "What is The Daily Prophet?",
+                "image": "",
                 "audio": ""
               },
               "dailyDouble": false
