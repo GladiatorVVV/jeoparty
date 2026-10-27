@@ -367,17 +367,17 @@
           ]
         },
         {
-          "name": "too easy?",
+          "name": "Roulette",
           "clues": [
             {
               "clue": {
-                "text": "The first letter of the alphabet.",
+                "text": "William Shakespeare's wife's name.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "What is A?",
-                "image": "",
+                "text": "Who is Anne Hathaway?",
+                "image": "media/lifstyl-lryd/bc35n5-strst-sbt-2010-11-width-770.jpg",
                 "audio": ""
               },
               "dailyDouble": false
@@ -410,12 +410,12 @@
             },
             {
               "clue": {
-                "text": "The chemical formula for phosphorus pentachloride... Ah screw it. The zip code of the Lexington Lifstyl Office.",
+                "text": "The chemical formula for phosphorus pentachloride.",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "What is 40503?",
+                "text": "PCL5",
                 "image": "",
                 "audio": ""
               },
