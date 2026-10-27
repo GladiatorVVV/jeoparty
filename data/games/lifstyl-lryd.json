@@ -856,12 +856,12 @@
             },
             {
               "clue": {
-                "text": "Kush was away in this Middle Eastern city from December 2025 to January 2026.",
+                "text": "As an agent of Lifstyl Real Estate, Kush strives to resemble these four qualities that spell out the word \"RARE\".",
                 "image": "",
                 "audio": ""
               },
               "answer": {
-                "text": "What is Dubai? Yalla habibi!",
+                "text": "What is Real · Accomplished · Resilient · Engaged?",
                 "image": "",
                 "audio": ""
               },
@@ -878,14 +878,14 @@
     "double": 2
   },
   "final": {
-    "category": "Lifstyl Real Estate",
+    "category": "Kentucky Manufacturing",
     "clue": {
-      "text": "The acronym RARE resembles these four core principles that the company seeks its agents to have.",
+      "text": "Internationally known company 3M manufactures these two low-cost products in Cynthiana, KY that are found in every office in the world. (There are two products. Just need one product in your answer to win).",
       "image": "",
       "audio": ""
     },
     "answer": {
-      "text": "What is Real · Accomplished · Resilient · Engaged?",
+      "text": "What are Post-It Notes/Packaging Tape?\n(80 BILLION POST-IT NOTES A YEAR!)\n(100 MILLION ROLLS A YEAR)",
       "image": "",
       "audio": ""
     }
